@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>cache-test</title>
+    <script type="text/javascript" src="./src/js/cache.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+    	window.mLocalSdk.startup();//这里不能添加其他js代码，所有js代码按序放到cache中，否则在开关为off的时候会有问题。
+    </script>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
