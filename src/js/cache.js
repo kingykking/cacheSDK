@@ -49,7 +49,7 @@ window.Xhrfactory.prototype = {
 	}
 };
 
-var localStorageSign = 'off'; //后台开关控制，防止缓存失效
+var localStorageSign = 'on'; //后台开关控制，防止缓存失效
 var resourceVersion = '20171112'; //版本控制
 
 //本地SDK方法
